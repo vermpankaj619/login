@@ -1,0 +1,115 @@
+html,body{
+	padding: 0px;
+	margin: 0px;
+}
+
+ body{
+ font-family:  Arial ; 
+ background-color: #007FC0;
+
+}
+.container{
+ width:990px;
+ margin: 0 auto;   
+ background-color:white;
+ padding: 5px;
+}
+
+ header,footer{
+ background-color: #7ECBF3;
+ border:  solid black ;
+}
+ footer{
+ 	padding: 10px; 
+ 	border-radius: 5px;
+
+ }
+ header nav {
+ 	float: right;
+
+ }
+ header nav li
+ { display: inline;
+   font-size: 12px;
+   padding-right: 10px;
+
+
+ }
+ a {
+ 	color: #007FC0;
+ }
+.borderded{
+  border:1px solid #ccc;
+  border-radius: 2px;
+}
+
+ #main {
+  min-height: 600px;
+  box-shadow: 10px 10px 10px;
+  border-radius: 5px;
+  color: #2020202;
+  margin: 10px 0px ;
+  padding: 2px;
+ }
+ 
+ 
+
+#results {
+  display: inline-block;
+  vertical-align: text-top;
+   padding: 2px;
+   width: 300px; 
+   border:1px  solid #ccc;
+ }
+ .result {
+  margin: 5px;
+  border: 1px solid #999;
+
+ }
+ .result .title {
+  font-weight: bold;
+ }
+.login-form{
+  width: 400px;
+  padding: 2px;
+  display: inline-block;
+  vertical-align: top;
+ }
+
+ .login-form label {        
+  width: 120px;
+  display: inline-block;
+  padding-bottom: 10px;
+
+ }
+
+ .loginform input[tpye=text],
+  #main input[type=password] {
+  width: 150;
+ }
+
+ .login-form input[type=checkbox]
+ {
+  margin: 10px;
+ }
+
+ .login-form input[type=submit],
+ .loginform input[type=reset],
+  button{
+ 	background-color: #007FC0;
+ 	color: #fff;
+ 	border-radius: 10px;
+ 	padding: 3px;
+ 	margin-top: 5px;
+ 	width: 76px;
+ }
+ .login-form input[type=reset] {
+ 	background-color: grey;
+ }
+ #errorMsg{
+  color: #f00;
+  font-size: 12px;
+ }
+ #LogoutSection{
+  display: none;
+ }
